@@ -1,39 +1,118 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
 .container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .header {
-
+    background-color: #1F2937;
+    color: #F9FaF8;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    padding: 20px 200px 0px 200px;
 }
 .links {
-
+    display: flex;
+    gap: 25px;
+}
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
 }
 .introduction {
-
+    background-color: #1F2937;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 .welcome-text {
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button1 {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 3px;
+    color: #F9FaF8;
+    font-size: 16px;  
+}
+.image {
+    background-color: #E5E7EB;
+    min-width: 400px;
+}
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 .showcase {
-
+    color: #1F2937;
+}
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
 }
 .information-container {
-
+    font-size: 18px;
 }
 .information {
-
+    border-radius: 3px;
+    border: #3882F6;
 }
 .quote-container {
-
+    color: #1F2937;
+    background-color: #E5E7EB;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
 .sign-up {
-
+    display: flex;
+    padding: 75px;
+    justify-content: center;
 }
 .blue-box {
-
+    background-color: #3882F6;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 .box-words {
-
+    color: #F9FaF8;
+}
+.box-text1 {
+    font-size: 24px;
+}
+.button2 {
+    background-color: #3882F6;
+    border-width: 2px;
+    border-color:#F9FaF8;
+    color: #F9FaF8;
+    border-radius: 5px;
+    border-style: solid;
+}
+img {
+    color: #F9FaF8;
 }
 .footer {
-    
+    background-color: #1F2937;
+    color: #F9FaF8;
+    text-align: center;
+    padding: 25px;
 }
