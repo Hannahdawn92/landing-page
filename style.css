@@ -16,6 +16,9 @@ body {
     font-weight: 900;
     padding: 20px 200px 0px 200px;
 }
+ul {
+    list-style-type: none;
+}
 .links {
     display: flex;
     gap: 25px;
